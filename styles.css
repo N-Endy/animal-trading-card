@@ -1,0 +1,63 @@
+/* add your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility */
+.dog-info ul li span {
+    font-weight: 700;
+    color: #51fdd2;
+}
+
+body {
+    background: #371BB1;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+.container {
+    background: #12151F;
+    color: white;
+    width: 350px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    font-size: 15px;
+    border: 3px solid white;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.7);
+}
+
+.dog-name {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0.75rem 0;
+    color: #51fdd2;
+}
+
+.img {
+    width: 300px;
+    height: 350px;
+    margin-bottom: 1rem;
+}
+
+.dog-info {
+    padding: 1rem;
+    border: 1px solid white;
+}
+
+.dog-info p {
+    margin: 1rem 0;
+}
+
+.dog-info ul {
+    list-style: none;
+}
+
+.dog-fact {
+    font-style: italic;
+}
+
